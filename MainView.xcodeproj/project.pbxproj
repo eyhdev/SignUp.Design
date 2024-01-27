@@ -14,6 +14,7 @@
 		D481F9D02B65029300E93ACC /* MainViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D481F9CF2B65029300E93ACC /* MainViewTests.swift */; };
 		D481F9DA2B65029300E93ACC /* MainViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D481F9D92B65029300E93ACC /* MainViewUITests.swift */; };
 		D481F9DC2B65029300E93ACC /* MainViewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D481F9DB2B65029300E93ACC /* MainViewUITestsLaunchTests.swift */; };
+		D481F9EB2B6503AE00E93ACC /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D481F9EA2B6503AE00E93ACC /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		D481F9D52B65029300E93ACC /* MainViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MainViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D481F9D92B65029300E93ACC /* MainViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewUITests.swift; sourceTree = "<group>"; };
 		D481F9DB2B65029300E93ACC /* MainViewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D481F9EA2B6503AE00E93ACC /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				D481F9BE2B65029100E93ACC /* MainViewApp.swift */,
 				D481F9C02B65029100E93ACC /* ContentView.swift */,
+				D481F9EA2B6503AE00E93ACC /* MainView.swift */,
 				D481F9C22B65029300E93ACC /* Assets.xcassets */,
 				D481F9C42B65029300E93ACC /* Preview Content */,
 			);
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D481F9C12B65029100E93ACC /* ContentView.swift in Sources */,
+				D481F9EB2B6503AE00E93ACC /* MainView.swift in Sources */,
 				D481F9BF2B65029100E93ACC /* MainViewApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
